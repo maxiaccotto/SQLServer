@@ -17,14 +17,6 @@ Y se mide, para cada escenario:
 - Lecturas lógicas y tiempo de ejecución (`STATISTICS IO` / `STATISTICS TIME`), con Clustered Index Scan e Index Seek.
 - Tamaño real del clustered index de cada tabla (`sys.dm_db_partition_stats`).
 
-## Scripts
-
-| Archivo | Qué hace |
-|---|---|
-| `01-crear-tablas.sql` | Crea las dos versiones de la tabla (embebida y separada) |
-| `02-poblar-datos.sql` | Genera las 5 millones de filas de prueba |
-| `03-benchmark-statistics-io.sql` | Corre la consulta comparativa con `STATISTICS IO`/`TIME` |
-| `04-tamano-indices.sql` | Mide páginas y tamaño en MB de cada clustered index |
 
 ## Resultado
 

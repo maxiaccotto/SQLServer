@@ -15,7 +15,7 @@ Código de ejemplo, herramientas y proyectos de IA de **Maxi Accotto** sobre SQL
 | Ejemplo | Post | Video |
 |---|---|---|
 | [JSON en SQL Server: benchmark de rendimiento](blog/JSON%20Performance/) | [Leer](https://triggerdb.com/como-guardar-json-en-sql-server-sin-romper-el-rendimiento/) | [Ver](https://youtu.be/66MMxku2D9Y) |
-| [Borrar o mover registros sin bloqueos (caso real)](blog/borrar-mover-registros-sin-bloqueos/) | _Próximamente_ | [Ver](https://youtu.be/KDtJyCqT0Lk) |
+| [Borrar o mover registros sin bloqueos (caso real)](blog/borrar-mover-registros-sin-bloqueos/) | [Leer](https://triggerdb.com/borrar-mover-registros-sql-server-sin-bloqueos/) | [Ver](https://youtu.be/KDtJyCqT0Lk) |
 
 ¿Te sirvió? Dejale una ⭐ al repo y suscribite al canal para no perderte los próximos.
 

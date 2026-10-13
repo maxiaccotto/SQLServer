@@ -1,6 +1,6 @@
 # Borrar o mover registros en SQL Server sin bloqueos
 
-Cómo depurar millones de registros sin dejar a los usuarios bloqueados: en lugar de un `DELETE` de una sola vez, se borra (o se mueve a un histórico) por lotes, con una sola instrucción por lote y una salida por tiempo máximo. Nace de un caso real en un banco, donde un `DELETE` masivo en horario laboral bloqueó la operación.
+Cómo depurar millones de registros sin dejar a los usuarios bloqueados: en lugar de un `DELETE` de una sola vez, se borra (o se mueve a un histórico) por lotes, con una sola instrucción por lote y una salida por tiempo máximo. Nace de un caso real, donde un `DELETE` masivo en horario laboral bloqueó la operación de un sistema crítico.
 
 📖 Post completo: **[Borrar o mover registros en SQL Server sin bloqueos: caso real](https://triggerdb.com/borrar-mover-registros-sql-server-sin-bloqueos/)**
 🎥 Video con la demo: **[Ver en YouTube](https://youtu.be/KDtJyCqT0Lk)**
